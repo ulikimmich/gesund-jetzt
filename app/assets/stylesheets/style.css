@@ -1598,7 +1598,7 @@ section * {
   }
 }
 .header-10-sub .background {
-  background-image: url("/assets/img-3.jpg");
+  background-image: url("../assets/img-3.jpg");
   opacity: 0.4;
   filter: alpha(opacity=40);
 }
@@ -1636,7 +1636,7 @@ body > section.v-center > div {
   filter: alpha(opacity=10);
 }
 .content-23.custom-bg {
-  background-image: url('/assets/Italy_001.png');
+  background-image: url('../assets/Italy_001.png');
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
