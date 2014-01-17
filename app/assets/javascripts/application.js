@@ -10,8 +10,16 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require jquery
-//= require jquery_ujs
-//= require turbolinks
-//= require_tree .
-//= require bootstrap
+
+//= require jquery-1.8.3.min
+//= require bootstrap.min
+//= require icon-font-ie7.js
+//= require jquery.scrollTo-1.4.3.1-min
+//= require jquery.parallax.min
+//= require startup-kit
+//= require jquery.backgroundvideo.min
+//= require script
+//= require page-transitions
+//= require modernizr.custom
+//= require easing.min
+
