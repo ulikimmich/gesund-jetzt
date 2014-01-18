@@ -67,6 +67,16 @@ function fadedEls(el, shift) {
             });
         });
 
+        // Video
+        var videobackground = new $.backgroundVideo($('#bgVideo'), {
+            "align" : "centerXY",
+            "path" : "assets/",
+            "width": 1280,
+            "height": 720,
+            "filename" : "preview",
+            "types" : ["mp4", "ogg", "webm"]
+        });
+
         // Sections height & scrolling
         $(window).resize(function() {
             var sH = $(window).height();
