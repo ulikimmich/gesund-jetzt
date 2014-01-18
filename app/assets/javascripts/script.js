@@ -70,7 +70,7 @@ function fadedEls(el, shift) {
         // Video
         var videobackground = new $.backgroundVideo($('#bgVideo'), {
             "align" : "centerXY",
-            "path" : "assets/",
+            "path" : "/assets/",
             "width": 1280,
             "height": 720,
             "filename" : "preview",
